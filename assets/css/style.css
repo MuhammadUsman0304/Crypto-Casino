@@ -264,7 +264,7 @@ ul {
     padding: 0;
      }
     .header .mainmenu .navbar .navbar-nav .nav-item .nav-link {
-      padding: 31px 0;
+      padding: 20px 0;
       font-family: "Poppins", sans-serif;
       font-size: 14px;
       font-weight: 500;
@@ -299,6 +299,14 @@ ul {
         opacity: .8; }
     .header .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
       margin-right: 0px; }
+    .sb-menu{
+      background-image: linear-gradient(to right, #b73ba5, #b73ba5);
+    }
+    .sb-menu .nav-item a{
+      color: #fff;
+      font-weight: 500;
+      padding: 10px;
+    }
 
 /*==========================================
     breadcrump

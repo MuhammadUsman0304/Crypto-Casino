@@ -26,7 +26,7 @@
     <!-- responsive -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
 <body>
@@ -71,11 +71,24 @@
                                         <a class="nav-link active" href="#">Home <span
                                                 class="sr-only">(current)</span></a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Games</a>
+                                    <li class="dropdown nav-item"><a class="dropdown-toggle nav-link"
+                                            data-toggle="dropdown" href="#">Games
+                                            <span class="caret"></span></a>
+                                        <ul class="dropdown-menu sb-menu">
+                                            <li class="nav-item"><a href="#">Slots</a></li>
+                                            <li class="nav-item"><a href="#">Dice 3D</a></li>
+                                            <li class="nav-item"><a href="#">American Roulette</a></li>
+                                            <li class="nav-item"><a href="#">Blackjack</a></li>
+                                        </ul>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">History</a>
+                                    <li class="dropdown nav-item"><a class="dropdown-toggle nav-link"
+                                            data-toggle="dropdown" href="#">History
+                                            <span class="caret"></span></a>
+                                        <ul class="dropdown-menu sb-menu">
+                                            <li class="nav-item"><a href="#">Recent Games</a></li>
+                                            <li class="nav-item"><a href="#">Top Wins</a></li>
+                                            <li class="nav-item"><a href="#">Top Lose</a></li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Leaderboard</a>
@@ -526,7 +539,7 @@
     <script src="assets/js/wow.min.js"></script>
     <!-- main -->
     <script src="assets/js/main.js"></script>
-
+    <!--header animations js-->
     <script>
         // Wrap every letter in a span
         var textWrapper = document.querySelector('.ml3');
