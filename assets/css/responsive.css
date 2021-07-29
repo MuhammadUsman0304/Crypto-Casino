@@ -1,0 +1,1718 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* banner */
+    .banner .banner-content {
+        padding: 180px 0;
+    }
+    .banner .banner-content h1 {
+        font-size: 100px;
+    }
+    .banner .banner-bottom .banner-buttons a {
+        display: grid;
+        height: 50px;
+        line-height: 50px;
+        width: 134px;
+        display: inline-grid;
+    }
+
+    /* countdown */
+    .countdown .countdown-title h2 {
+        line-height: 54px;
+        text-align: center;
+    }
+    .countdown .part-countdown {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* header */
+    .header {
+        background: #020c16;
+        border: none;
+        position: relative;
+    }
+    .header button.navbar-toggler {
+        width: 45px;
+        height: 45px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 25px;
+        outline: none;
+        color: #fff;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar {
+        float: none;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 16px 15px;
+        position: relative;
+        background: #020c16;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        z-index: 2;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient( 0deg, rgb(255,105,117) 0%, rgb(211,77,148) 56%, rgb(167,48,178) 100%);
+        opacity: .2;
+        z-index: -1;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+        border-bottom: none;
+    }
+
+    /* banner */
+    .banner .banner-content {
+        padding: 183px 0 186px;
+        display: block;
+    }
+    .banner .banner-content h1 {
+        font-size: 60px;
+        margin-bottom: 24px;
+    }
+    .banner .banner-content h4 {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .banner .banner-bottom {
+        padding: 20px 0;
+    }
+    .banner .banner-bottom:after {
+        top: 0;
+    }
+    .banner .banner-bottom .banner-buttons a {
+        height: 50px;
+        line-height: 50px;
+        width: 150px;
+        display: inline-grid;
+    }
+    .banner .banner-bottom .promo-video {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .banner .banner-bottom .banner-buttons {
+        margin-top: 0;
+    }
+
+    /* countdown */
+    .countdown {
+        text-align: center;
+        padding: 70px 0 74px;
+    }
+    .countdown .countdown-title h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: initial;
+        margin-bottom: 30px;
+    }
+    .countdown .part-countdown {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        padding: 10px 20px 8px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .countdown .part-countdown:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient(0deg, #ff6975 0%, #d34d94 56%, #a730b2 100%);
+        opacity: .15;
+        z-index: -1;
+    }
+    .countdown .part-countdown .timer .single-count {
+        margin-right: 8px;
+        width: auto;
+        padding: 0;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        display: none;
+    }
+    .countdown .part-countdown .timer .single-count:last-child {
+        margin-right: 0;
+    }
+    .countdown .part-countdown .timer .single-count span.day, .countdown .part-countdown .timer .single-count span.hour, .countdown .part-countdown .timer .single-count span.minute, .countdown .part-countdown .timer .single-count span.second {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .countdown .part-countdown .timer .single-count span.title {
+        font-size: 16px;
+        font-weight: 300; 
+        opacity: .8;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        /* display: none; */
+    }
+
+    /* about */
+    .about {
+        padding: 0;
+    }
+    .about .about-area .part-text {
+        padding: 24px 30px 30px;
+    }
+    .about .about-area .part-text h2 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+    .about .about-area .part-text a {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 19px;
+    }
+    .about .about-area {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    /* section title */
+    .section-title {
+        margin-top: 0;
+    }
+    .section-title.add-space {
+        margin-bottom: 39px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    /* event schedule */
+    .event-schedule {
+        padding: 74px 0 80px;
+        background: #04121f;
+    }
+    .event-schedule .section-title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .event-schedule .nav.nav-pills .nav-link {
+        font-size: 16px;
+        display: inline-block;
+    }
+    .event-schedule .nav.nav-pills .nav-link:after {
+        display: none;
+    }
+    .event-schedule .nav.nav-pills .nav-link span.month-count {
+        font-size: 14px;
+    }
+    .event-schedule .nav.nav-pills {
+        margin-bottom: 30px;
+        display: block;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-img, .event-schedule .tab-content #accordion2 .card .card-header .part-img, .event-schedule .tab-content #accordion3 .card .card-header .part-img, .event-schedule .tab-content #accordion4 .card .card-header .part-img {
+        display: none;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-text h3, .event-schedule .tab-content #accordion2 .card .card-header .part-text h3, .event-schedule .tab-content #accordion3 .card .card-header .part-text h3, .event-schedule .tab-content #accordion4 .card .card-header .part-text h3 {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 10px 0 9px;
+    }
+    .event-schedule .tab-content #accordion .card .card-header, .event-schedule .tab-content #accordion2 .card .card-header, .event-schedule .tab-content #accordion3 .card .card-header, .event-schedule .tab-content #accordion4 .card .card-header {
+        padding: 22px 20px 29px;
+    }
+    .event-schedule .tab-content #accordion .card .card-body, .event-schedule .tab-content #accordion2 .card .card-body, .event-schedule .tab-content #accordion3 .card .card-body, .event-schedule .tab-content #accordion4 .card .card-body {
+        padding: 0 20px 27px 20px;
+    }
+
+    /* gallery */
+    .gallery {
+        padding: 71px 0 50px;
+    }
+
+    /* team dj */
+    .team-dj {
+        background: #04121f;
+        padding: 74px 0 80px;
+    }
+    .team-dj .section-title {
+        margin-top: 0;
+    }
+
+    /* about venue */
+    .about-venu {
+        padding: 0px 0;
+    }
+    .about-venu .part-img {
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .about-venu .part-text {
+        border-radius: 5px;
+        padding: 40px 30px 40px;
+    }
+    .about-venu .part-text:after {
+        display: none;
+    }
+    .about-venu .part-text h3 {
+        font-size: 32px;
+        margin-top: -9px;
+        margin-bottom: 12px;
+    }
+    .about-venu .part-text a {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /* ticket price */
+    .ticket-price {
+        background: #04121f;
+        padding: 75px 0 52px;
+    }
+    .ticket-price .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+    .ticket-price .single-ticket-price .part-feature h3 {
+        font-size: 22px;
+    }
+
+    /* blog */
+    .blog {
+        padding: 74px 0 30px;
+    }
+    .blog .section-title {
+        margin-top: 0;
+    }
+    .blog .single-blog .part-img .date-on-img {
+        padding: 10px 20px 11px;
+    }
+    .blog .single-blog .part-img .date-on-img span.date {
+        font-size: 16px;
+    }
+    .blog .single-blog .part-text {
+        background: #04121f;
+        padding: 30px 20px;
+        border-radius: 5px;
+    }
+    .blog .single-blog .part-text h3 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: -7px;
+        margin-bottom: 12px;
+    }
+
+    /* testimonial */
+    .testimonial {
+        background: #04121f;
+        padding: 75px 0 80px
+    }
+    .testimonial .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+    .testimonial .single-testimonial .part-img {
+        height: 280px;
+    }
+
+    /* faq */
+    .faq {
+        padding: 75px 0 80px;
+    }
+    .faq .section-title {
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+    .faq .accordion .card .card-header h5 button, .faq .accordion2 .card .card-header h5 button {
+        font-size: 18px;
+        white-space: normal;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    /* subcribe newsletter */
+    .subscribe-newsletter {
+        background: #04121f;
+        padding: 71px 0 80px;
+    }
+
+    /* contact */
+    .contact {
+        padding: 71px 0 80px;
+    }
+    .contact .contact-form form input {
+        height: 50px;
+        padding: 0 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 10px;
+    }
+    .contact .contact-form form span {
+        display: none;
+    }
+    .contact .contact-form form textarea {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 12px 20px;
+    }
+    .contact .contact-form form button {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    /* footer */
+    .footer .footer-menu {
+        display: none;
+    }
+    .footer .logo {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .footer .logo a {
+        display: inline-block;
+    }
+
+    /* breadcrump */
+    .breadcrump .breadcrump-content {
+        margin-top: 0;
+        padding: 28px 0;
+    }
+    .breadcrump .breadcrump-content span {
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+
+    /* comment box */
+    .comment-box {
+        margin-bottom: 50px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .blog.blog-details {
+        padding-bottom: 50px;
+    }
+
+
+    /* counter */
+    .counter {
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+    .counter .single-counter {
+        margin-bottom: 36px;
+    }
+
+    /* single event */
+    .single-event {
+        padding: 80px 0;
+    }
+    .single-event .part-text h3 {
+        margin-top: -8px;
+        font-size: 32px;
+    }
+    .single-event .part-img {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* header */
+    .header {
+        background: #020c16;
+        border: none;
+        position: relative;
+    }
+    .header button.navbar-toggler {
+        width: 45px;
+        height: 45px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 25px;
+        outline: none;
+        color: #fff;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar {
+        float: none;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 16px 15px;
+        position: relative;
+        background: #020c16;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        z-index: 2;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient( 0deg, rgb(255,105,117) 0%, rgb(211,77,148) 56%, rgb(167,48,178) 100%);
+        opacity: .2;
+        z-index: -1;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+        border-bottom: none;
+    }
+
+    /* banner */
+    .banner .banner-content {
+        padding: 183px 0 186px;
+        display: block;
+    }
+    .banner .banner-content h1 {
+        font-size: 60px;
+        margin-bottom: 24px;
+    }
+    .banner .banner-content h4 {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .banner .banner-bottom:after {
+        width: 100%;
+    }
+    .banner .banner-bottom .part-img img {
+        width: 100%;
+    }
+    .banner .banner-bottom .banner-buttons {
+        text-align: center;
+    }
+    .banner .banner-bottom .banner-buttons a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-bottom .promo-video .part-icon {
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+    .banner .banner-bottom .promo-video {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner .banner-bottom .banner-buttons {
+        margin-top: 16px;
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+
+    /* countdown */
+    .countdown {
+        text-align: center;
+        padding: 70px 0 74px;
+    }
+    .countdown .countdown-title h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: initial;
+        margin-bottom: 30px;
+    }
+    .countdown .part-countdown {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        padding: 10px 20px 8px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .countdown .part-countdown:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient(0deg, #ff6975 0%, #d34d94 56%, #a730b2 100%);
+        opacity: .15;
+        z-index: -1;
+    }
+    .countdown .part-countdown .timer .single-count {
+        margin-right: 8px;
+        width: auto;
+        padding: 0;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        display: none;
+    }
+    .countdown .part-countdown .timer .single-count:last-child {
+        margin-right: 0;
+    }
+    .countdown .part-countdown .timer .single-count span.day, .countdown .part-countdown .timer .single-count span.hour, .countdown .part-countdown .timer .single-count span.minute, .countdown .part-countdown .timer .single-count span.second {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .countdown .part-countdown .timer .single-count span.title {
+        font-size: 16px;
+        font-weight: 300; 
+        opacity: .8;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        /* display: none; */
+    }
+
+    /* about */
+    .about {
+        padding: 0;
+    }
+    .about .about-area .part-text {
+        padding: 24px 30px 30px;
+    }
+    .about .about-area .part-text h2 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+    .about .about-area .part-text a {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 19px;
+    }
+    .about .about-area {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    /* section title */
+    .section-title {
+        margin-top: 0;
+    }
+    .section-title.add-space {
+        margin-bottom: 39px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    /* event schedule */
+    .event-schedule {
+        padding: 74px 0 80px;
+        background: #04121f;
+    }
+    .event-schedule .section-title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .event-schedule .nav.nav-pills .nav-link {
+        padding: 10px 20px 11px;
+        font-size: 16px;
+        display: inline-block;
+    }
+    .event-schedule .nav.nav-pills .nav-link:after {
+        display: none;
+    }
+    .event-schedule .nav.nav-pills .nav-link span.month-count {
+        font-size: 14px;
+    }
+    .event-schedule .nav.nav-pills {
+        margin-bottom: 30px;
+        display: block;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-img, .event-schedule .tab-content #accordion2 .card .card-header .part-img, .event-schedule .tab-content #accordion3 .card .card-header .part-img, .event-schedule .tab-content #accordion4 .card .card-header .part-img {
+        display: none;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-text h3, .event-schedule .tab-content #accordion2 .card .card-header .part-text h3, .event-schedule .tab-content #accordion3 .card .card-header .part-text h3, .event-schedule .tab-content #accordion4 .card .card-header .part-text h3 {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 10px 0 9px;
+    }
+    .event-schedule .tab-content #accordion .card .card-header, .event-schedule .tab-content #accordion2 .card .card-header, .event-schedule .tab-content #accordion3 .card .card-header, .event-schedule .tab-content #accordion4 .card .card-header {
+        padding: 22px 20px 29px;
+    }
+    .event-schedule .tab-content #accordion .card .card-body, .event-schedule .tab-content #accordion2 .card .card-body, .event-schedule .tab-content #accordion3 .card .card-body, .event-schedule .tab-content #accordion4 .card .card-body {
+        padding: 0 20px 27px 20px;
+    }
+
+    /* gallery */
+    .gallery {
+        padding: 71px 0 50px;
+    }
+
+    /* team dj */
+    .team-dj {
+        background: #04121f;
+        padding: 74px 0 80px;
+    }
+    .team-dj .section-title {
+        margin-top: 0;
+    }
+
+    /* about venue */
+    .about-venu {
+        padding: 80px 0;
+    }
+    .about-venu .part-img {
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .about-venu .part-text {
+        border-radius: 5px;
+        padding: 40px 30px 40px;
+    }
+    .about-venu .part-text:after {
+        display: none;
+    }
+    .about-venu .part-text h3 {
+        font-size: 32px;
+        margin-top: -9px;
+        margin-bottom: 12px;
+    }
+    .about-venu .part-text a {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /* ticket price */
+    .ticket-price {
+        background: #04121f;
+        padding: 75px 0 52px;
+    }
+    .ticket-price .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+    .ticket-price .single-ticket-price .part-feature h3 {
+        font-size: 22px;
+    }
+
+    /* blog */
+    .blog {
+        padding: 74px 0 30px;
+    }
+    .blog .section-title {
+        margin-top: 0;
+    }
+    .blog .single-blog .part-img .date-on-img {
+        padding: 10px 20px 11px;
+    }
+    .blog .single-blog .part-img .date-on-img span.date {
+        font-size: 16px;
+    }
+    .blog .single-blog .part-text {
+        background: #04121f;
+        padding: 30px 20px;
+        border-radius: 5px;
+    }
+    .blog .single-blog .part-text h3 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: -7px;
+        margin-bottom: 12px;
+    }
+
+    /* testimonial */
+    .testimonial {
+        background: #04121f;
+        padding: 75px 0 80px
+    }
+    .testimonial .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+
+    /* faq */
+    .faq {
+        padding: 75px 0 80px;
+    }
+    .faq .section-title {
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+    .faq .accordion .card .card-header h5 button, .faq .accordion2 .card .card-header h5 button {
+        font-size: 18px;
+        white-space: normal;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    /* subcribe newsletter */
+    .subscribe-newsletter {
+        background: #04121f;
+        padding: 71px 0 80px;
+    }
+
+    /* contact */
+    .contact {
+        padding: 71px 0 80px;
+    }
+    .contact .contact-form form input {
+        height: 50px;
+        padding: 0 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 10px;
+    }
+    .contact .contact-form form span {
+        display: none;
+    }
+    .contact .contact-form form textarea {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 12px 20px;
+    }
+    .contact .contact-form form button {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    /* footer */
+    .footer .footer-menu {
+        display: none;
+    }
+    .footer .logo {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .footer .logo a {
+        display: inline-block;
+    }
+
+    /* breadcrump */
+    .breadcrump .breadcrump-content {
+        margin-top: 0;
+        padding: 28px 0;
+    }
+    .breadcrump .breadcrump-content span {
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+
+    /* comments area */
+    .comment-area .single-comment .part-img {
+        float: none;
+        margin-bottom: 15px;
+    }
+    /* comment box */
+    .comment-box {
+        margin-bottom: 50px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .comment-box form input {
+        height: 50px;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    .comment-box form span {
+        height: 50px;
+    }
+    .comment-box form button {
+        margin-top: 15px;
+    }
+    .blog.blog-details {
+        padding-bottom: 50px;
+    }
+
+    /* counter */
+    .counter {
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+    .counter .single-counter {
+        margin-bottom: 36px;
+    }
+
+    /* single event */
+    .single-event {
+        padding: 80px 0;
+    }
+    .single-event .part-text h3 {
+        margin-top: -8px;
+        font-size: 32px;
+    }
+    .single-event .part-img {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    /* header */
+    .header {
+        background: #020c16;
+        border: none;
+        position: relative;
+    }
+    .header button.navbar-toggler {
+        width: 45px;
+        height: 45px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 25px;
+        outline: none;
+        color: #fff;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar {
+        float: none;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 16px 15px;
+        position: relative;
+        background: #020c16;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        z-index: 2;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient( 0deg, rgb(255,105,117) 0%, rgb(211,77,148) 56%, rgb(167,48,178) 100%);
+        opacity: .2;
+        z-index: -1;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+        border-bottom: none;
+    }
+
+    /* banner */
+    .banner .banner-content {
+        padding: 183px 0 186px;
+        display: block;
+    }
+    .banner .banner-content h1 {
+        font-size: 60px;
+        margin-bottom: 24px;
+    }
+    .banner .banner-content h4 {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .banner .banner-bottom:after {
+        width: 100%;
+    }
+    .banner .banner-bottom .part-img img {
+        width: 100%;
+    }
+    .banner .banner-bottom .banner-buttons {
+        text-align: center;
+    }
+    .banner .banner-bottom .banner-buttons a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-bottom .promo-video .part-icon {
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+    .banner .banner-bottom .promo-video {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner .banner-bottom .banner-buttons {
+        margin-top: 16px;
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+
+    /* countdown */
+    .countdown {
+        text-align: center;
+        padding: 70px 0 74px;
+    }
+    .countdown .countdown-title h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: initial;
+        margin-bottom: 30px;
+    }
+    .countdown .part-countdown {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        padding: 10px 20px 8px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .countdown .part-countdown:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient(0deg, #ff6975 0%, #d34d94 56%, #a730b2 100%);
+        opacity: .15;
+        z-index: -1;
+    }
+    .countdown .part-countdown .timer .single-count {
+        margin-right: 8px;
+        width: auto;
+        padding: 0;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        display: none;
+    }
+    .countdown .part-countdown .timer .single-count:last-child {
+        margin-right: 0;
+    }
+    .countdown .part-countdown .timer .single-count span.day, .countdown .part-countdown .timer .single-count span.hour, .countdown .part-countdown .timer .single-count span.minute, .countdown .part-countdown .timer .single-count span.second {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .countdown .part-countdown .timer .single-count span.title {
+        font-size: 16px;
+        font-weight: 300; 
+        opacity: .8;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        /* display: none; */
+    }
+
+    /* about */
+    .about {
+        padding: 0;
+    }
+    .about .about-area .part-text {
+        padding: 24px 30px 30px;
+    }
+    .about .about-area .part-text h2 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+    .about .about-area .part-text a {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 19px;
+    }
+    .about .about-area {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    /* section title */
+    .section-title {
+        margin-top: 0;
+    }
+    .section-title.add-space {
+        margin-bottom: 39px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    /* event schedule */
+    .event-schedule {
+        padding: 74px 0 80px;
+        background: #04121f;
+    }
+    .event-schedule .section-title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .event-schedule .nav.nav-pills .nav-link {
+        padding: 15px 30px 16px;
+        font-size: 16px;
+    }
+    .event-schedule .nav.nav-pills .nav-link span.month-count {
+        font-size: 14px;
+    }
+    .event-schedule .nav.nav-pills {
+        margin-bottom: 30px;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-img, .event-schedule .tab-content #accordion2 .card .card-header .part-img, .event-schedule .tab-content #accordion3 .card .card-header .part-img, .event-schedule .tab-content #accordion4 .card .card-header .part-img {
+        display: none;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-text h3, .event-schedule .tab-content #accordion2 .card .card-header .part-text h3, .event-schedule .tab-content #accordion3 .card .card-header .part-text h3, .event-schedule .tab-content #accordion4 .card .card-header .part-text h3 {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 10px 0 9px;
+    }
+    .event-schedule .tab-content #accordion .card .card-header, .event-schedule .tab-content #accordion2 .card .card-header, .event-schedule .tab-content #accordion3 .card .card-header, .event-schedule .tab-content #accordion4 .card .card-header {
+        padding: 22px 20px 29px;
+    }
+    .event-schedule .tab-content #accordion .card .card-body, .event-schedule .tab-content #accordion2 .card .card-body, .event-schedule .tab-content #accordion3 .card .card-body, .event-schedule .tab-content #accordion4 .card .card-body {
+        padding: 0 20px 27px 20px;
+    }
+
+    /* gallery */
+    .gallery {
+        padding: 71px 0 50px;
+    }
+
+    /* team dj */
+    .team-dj {
+        background: #04121f;
+        padding: 74px 0 80px;
+    }
+    .team-dj .section-title {
+        margin-top: 0;
+    }
+
+    /* about venue */
+    .about-venu {
+        padding: 80px 0;
+    }
+    .about-venu .part-img {
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .about-venu .part-text {
+        border-radius: 5px;
+        padding: 40px 30px 40px;
+    }
+    .about-venu .part-text:after {
+        display: none;
+    }
+    .about-venu .part-text h3 {
+        font-size: 32px;
+        margin-top: -9px;
+        margin-bottom: 12px;
+    }
+    .about-venu .part-text a {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /* ticket price */
+    .ticket-price {
+        background: #04121f;
+        padding: 75px 0 52px;
+    }
+    .ticket-price .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+
+    /* blog */
+    .blog {
+        padding: 74px 0 30px;
+    }
+    .blog .section-title {
+        margin-top: 0;
+    }
+    .blog .single-blog .part-img .date-on-img {
+        padding: 10px 20px 11px;
+    }
+    .blog .single-blog .part-img .date-on-img span.date {
+        font-size: 16px;
+    }
+    .blog .single-blog .part-text {
+        background: #04121f;
+        padding: 30px 20px;
+        border-radius: 5px;
+    }
+    .blog .single-blog .part-text h3 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: -7px;
+        margin-bottom: 12px;
+    }
+
+    /* testimonial */
+    .testimonial {
+        background: #04121f;
+        padding: 75px 0 80px
+    }
+    .testimonial .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+    .testimonial .single-testimonial .part-img {
+        height: 300px;
+    }
+
+    /* faq */
+    .faq {
+        padding: 75px 0 80px;
+    }
+    .faq .section-title {
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+    .faq .accordion .card .card-header h5 button, .faq .accordion2 .card .card-header h5 button {
+        font-size: 18px;
+        white-space: normal;
+        line-height: 28px;
+        font-weight: 400;
+    }
+    .faq .accordion .card .card-header h5 button:before, .faq .accordion2 .card .card-header h5 button:before {
+        display: none;
+    }
+
+    /* subcribe newsletter */
+    .subscribe-newsletter {
+        background: #04121f;
+        padding: 71px 0 80px;
+    }
+
+    /* contact */
+    .contact {
+        padding: 71px 0 80px;
+    }
+    .contact .contact-form form input {
+        height: 50px;
+        padding: 0 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 10px;
+    }
+    .contact .contact-form form span {
+        display: none;
+    }
+    .contact .contact-form form textarea {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 12px 20px;
+    }
+    .contact .contact-form form button {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    /* footer */
+    .footer .footer-menu {
+        display: none;
+    }
+    .footer .logo {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .footer .logo a {
+        display: inline-block;
+    }
+
+    /* breadcrump */
+    .breadcrump .breadcrump-content {
+        margin-top: 0;
+        padding: 28px 0;
+    }
+    .breadcrump .breadcrump-content span {
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+
+    /* comments area */
+    .comment-area .single-comment .part-img {
+        float: none;
+        margin-bottom: 15px;
+    }
+    /* comment box */
+    .comment-box {
+        margin-bottom: 50px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .comment-box form input {
+        height: 50px;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    .comment-box form span {
+        height: 50px;
+    }
+    .comment-box form button {
+        margin-top: 15px;
+    }
+    .blog.blog-details {
+        padding-bottom: 50px;
+    }
+
+    /* counter */
+    .counter {
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+    .counter .single-counter {
+        margin-bottom: 36px;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    /* header */
+    .header {
+        background: #020c16;
+        border: none;
+        position: relative;
+    }
+    .header button.navbar-toggler {
+        width: 45px;
+        height: 45px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 25px;
+        outline: none;
+        color: #fff;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar {
+        float: none;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 16px 15px;
+        position: relative;
+        background: #020c16;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        z-index: 2;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient( 0deg, rgb(255,105,117) 0%, rgb(211,77,148) 56%, rgb(167,48,178) 100%);
+        opacity: .2;
+        z-index: -1;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+        border-bottom: none;
+    }
+
+    /* banner */
+    .banner .banner-content {
+        padding: 123px 0 126px;
+        display: block;
+    }
+    .banner .banner-content h1 {
+        font-size: 60px;
+        margin-bottom: 24px;
+    }
+    .banner .banner-content h4 {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .banner .banner-bottom:after {
+        width: 100%;
+    }
+    .banner .banner-bottom .banner-buttons a {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-bottom .banner-buttons a:first-child {
+        margin-bottom: 9px;
+    }
+    .banner .banner-bottom .banner-buttons a:last-child {
+        margin-left: 0;
+    }
+    .banner .banner-bottom .promo-video .part-icon {
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+    .banner .banner-bottom .promo-video {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner .banner-bottom .banner-buttons {
+        margin-top: 16px;
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+
+    /* countdown */
+    .countdown {
+        text-align: center;
+        padding: 50px 0 54px;
+    }
+    .countdown .countdown-title h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: initial;
+        margin-bottom: 30px;
+    }
+    .countdown .part-countdown {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        padding: 10px 20px 8px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .trust-point-one{
+        position: absolute;
+        bottom: 0px;
+        left: 17px;
+        max-width: 108px;
+    }
+    .trust-point-two {
+        position: absolute;
+        bottom: 0px;
+        left: 116px;
+        max-width: 124px;
+        top: 35px;
+    }
+    .trust-point-three {
+        position: absolute;
+        bottom: 0px;
+        right: 21px;
+        max-width: 108px;
+    }
+    .beni-one {
+        position: absolute;
+        bottom: 0px;
+        left: 19px;
+        max-width: 114px;
+    }
+    .beni-two {
+        position: absolute;
+        bottom: 0px;
+        left: 137px;
+        max-width: 107px;
+    }
+    .beni-three {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        max-width: 135px;
+    }
+
+    .countdown .part-countdown:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-linear-gradient(0deg, #ff6975 0%, #d34d94 56%, #a730b2 100%);
+        opacity: .15;
+        z-index: -1;
+    }
+    .countdown .part-countdown .timer .single-count {
+        margin-right: 8px;
+        width: auto;
+        padding: 0;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        display: none;
+    }
+    .countdown .part-countdown .timer .single-count:last-child {
+        margin-right: 0;
+    }
+    .countdown .part-countdown .timer .single-count span.day, .countdown .part-countdown .timer .single-count span.hour, .countdown .part-countdown .timer .single-count span.minute, .countdown .part-countdown .timer .single-count span.second {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .countdown .part-countdown .timer .single-count span.title {
+        font-size: 16px;
+        font-weight: 300; 
+        opacity: .8;
+    }
+    .countdown .part-countdown .timer .single-count:after {
+        /* display: none; */
+    }
+
+    /* about */
+    .about {
+        padding: 0;
+    }
+    .about .about-area .part-text {
+        padding: 74px 30px 80px;
+        background: #020c16;
+    }
+    .about .about-area .part-text h2 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+    .about .about-area .part-text a {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 19px;
+    }
+    .about .about-area {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    /* section title */
+    .section-title {
+        margin-top: 0;
+    }
+    .section-title.add-space {
+        margin-bottom: 39px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    /* event schedule */
+    .event-schedule {
+        padding: 74px 0 80px;
+    }
+    .event-schedule .section-title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .event-schedule .nav.nav-pills .nav-link {
+        padding: 15px 30px 16px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .event-schedule .nav.nav-pills .nav-link span.month-count {
+        font-size: 14px;
+    }
+    .event-schedule .nav.nav-pills {
+        margin-bottom: 30px;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-img, .event-schedule .tab-content #accordion2 .card .card-header .part-img, .event-schedule .tab-content #accordion3 .card .card-header .part-img, .event-schedule .tab-content #accordion4 .card .card-header .part-img {
+        display: none;
+    }
+    .event-schedule .tab-content #accordion .card .card-header .part-text h3, .event-schedule .tab-content #accordion2 .card .card-header .part-text h3, .event-schedule .tab-content #accordion3 .card .card-header .part-text h3, .event-schedule .tab-content #accordion4 .card .card-header .part-text h3 {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 10px 0 9px;
+    }
+    .event-schedule .tab-content #accordion .card .card-header, .event-schedule .tab-content #accordion2 .card .card-header, .event-schedule .tab-content #accordion3 .card .card-header, .event-schedule .tab-content #accordion4 .card .card-header {
+        padding: 22px 20px 29px;
+    }
+    .event-schedule .tab-content #accordion .card .card-body, .event-schedule .tab-content #accordion2 .card .card-body, .event-schedule .tab-content #accordion3 .card .card-body, .event-schedule .tab-content #accordion4 .card .card-body {
+        padding: 0 20px 27px 20px;
+    }
+
+    /* gallery */
+    .gallery {
+        padding: 71px 0 50px;
+    }
+
+    /* team dj */
+    .team-dj {
+        padding: 74px 0 80px;
+    }
+    .team-dj.top-dj-page {
+        padding-bottom: 50px;
+    }
+    .team-dj .section-title {
+        margin-top: 0;
+    }
+
+    /* about venue */
+    .about-venu {
+        padding: 80px 0;
+    }
+    .about-venu .part-img {
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 0;
+        display: none;
+    }
+    .about-venu .part-text {
+        border-radius: 5px;
+        padding: 40px 30px 40px;
+    }
+    .about-venu .part-text:after {
+        display: none;
+    }
+    .about-venu .part-text h3 {
+        font-size: 32px;
+        margin-top: -9px;
+        margin-bottom: 12px;
+    }
+    .about-venu .part-text a {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /* ticket price */
+    .ticket-price {
+        padding: 75px 0 52px;
+    }
+    .ticket-price .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+
+    /* blog */
+    .blog {
+        padding: 74px 0 30px;
+    }
+    .blog .section-title {
+        margin-top: 0;
+    }
+    .blog .single-blog .part-img .date-on-img {
+        padding: 10px 20px 11px;
+    }
+    .blog .single-blog .part-img .date-on-img span.date {
+        font-size: 16px;
+    }
+    .blog .single-blog .part-text {
+        background: #04121f;
+        padding: 30px 20px;
+        border-radius: 5px;
+    }
+    .blog .single-blog .part-text h3 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: -7px;
+        margin-bottom: 12px;
+    }
+
+    /* testimonial */
+    .testimonial {
+        padding: 75px 0 80px
+    }
+    .testimonial .section-title {
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+    .testimonial .single-testimonial .part-img {
+        height: 300px;
+    }
+    /* ............ */
+    .event-schedule .tab-content #accordion .card .card-header .part-text span.time, .event-schedule .tab-content #accordion .card .card-header .part-text span.location, .event-schedule .tab-content #accordion2 .card .card-header .part-text span.time, .event-schedule .tab-content #accordion2 .card .card-header .part-text span.location, .event-schedule .tab-content #accordion3 .card .card-header .part-text span.time, .event-schedule .tab-content #accordion3 .card .card-header .part-text span.location, .event-schedule .tab-content #accordion4 .card .card-header .part-text span.time, .event-schedule .tab-content #accordion4 .card .card-header .part-text span.location {
+        display: none;
+    }
+    .event-schedule .tab-content #accordion .card .card-header.collapsed, .event-schedule .tab-content #accordion2 .card .card-header.collapsed, .event-schedule .tab-content #accordion3 .card .card-header.collapsed, .event-schedule .tab-content #accordion4 .card .card-header.collapsed {
+        padding: 22px 20px 29px;
+    }
+    .event-schedule .tab-content #accordion .card .card-header.collapsed .part-text h3, .event-schedule .tab-content #accordion2 .card .card-header.collapsed .part-text h3, .event-schedule .tab-content #accordion3 .card .card-header.collapsed .part-text h3, .event-schedule .tab-content #accordion4 .card .card-header.collapsed .part-text h3 {
+        margin: 0;
+    }
+
+    /* faq */
+    .faq {
+        padding: 75px 0 80px;
+    }
+    .faq .section-title {
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+    .faq .accordion .card .card-header h5 button, .faq .accordion2 .card .card-header h5 button {
+        font-size: 18px;
+        white-space: normal;
+        line-height: 28px;
+        font-weight: 400;
+    }
+    .faq .accordion .card .card-header h5 button:before, .faq .accordion2 .card .card-header h5 button:before {
+        display: none;
+    }
+
+    /* subcribe newsletter */
+    .subscribe-newsletter {
+        padding: 71px 0 80px;
+    }
+    .subscribe-newsletter .form .newsletter-form button {
+        position: relative;
+        height: 50px;
+        width: 100%;
+    }
+    .subscribe-newsletter .form .newsletter-form:after {
+        display: none;
+    }
+    .subscribe-newsletter .form .newsletter-form input.newsletter-input {
+        padding: 0 30px; 
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 10px;
+        height: 50px;
+    }
+
+    /* contact */
+    .contact {
+        padding: 71px 0 80px;
+    }
+    .contact .contact-form form input {
+        height: 50px;
+        padding: 0 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 10px;
+    }
+    .contact .contact-form form span {
+        display: none;
+    }
+    .contact .contact-form form textarea {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 12px 20px;
+    }
+    .contact .contact-form form button {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    /* footer */
+    .footer .footer-menu {
+        display: none;
+    }
+    .footer .logo {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .footer .logo a {
+        display: inline-block;
+    }
+
+    /* breadcrump */
+    .breadcrump .breadcrump-content {
+        margin-top: 0;
+        padding: 28px 0;
+    }
+    .breadcrump .breadcrump-content span {
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+
+    /* comments area */
+    .comment-area .single-comment .part-img {
+        float: none;
+        margin-bottom: 15px;
+    }
+    /* comment box */
+    .comment-box {
+        margin-bottom: 50px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .comment-box form input {
+        height: 50px;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    .comment-box form span {
+        height: 50px;
+    }
+    .comment-box form button {
+        margin-top: 15px;
+    }
+    .blog.blog-details {
+        padding-bottom: 50px;
+    }
+
+    /* counter */
+    .counter {
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+    .counter .single-counter {
+        margin-bottom: 36px;
+    }
+
+    /* single event */
+    .single-event {
+        padding: 80px 0;
+    }
+    .single-event .part-text h3 {
+        margin-top: -8px;
+        font-size: 32px;
+    }
+    .single-event .part-img {
+        margin-bottom: 30px;
+    }
+}
